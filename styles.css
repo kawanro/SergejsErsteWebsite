@@ -64,7 +64,8 @@ a:link{
     justify-content: space-between; 
     /*width: 50px;*/ 
     padding: 50px 200px;
-    gap: 25px
+    gap: 25px;
+ 
 
 }
 
@@ -72,6 +73,10 @@ a:link{
     display: flex;
     flex-direction: column;
 }
+
+img { max-width: 100%;
+       display: flex;
+       min-height: 0%;}
 
 .border{
     border: 10px;
