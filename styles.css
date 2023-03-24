@@ -96,9 +96,48 @@ a:link{
     color:#1F2937;
     flex-wrap: wrap;
     max-width: 50%;
-    margin-top: 200px;
+    padding-top: 200px;
 }
 
 .author{
     align-self: flex-end;
+    padding-right: 450px;
+    padding-top:10px;
+}
+
+.signUpBottom{
+    display: flex;
+    margin: 100px 200px;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 5%;
+    padding: 50px 200px;
+}
+
+.textBot{
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.subtextBot{
+    color: #E5E7EB;
+    font-size: small;
+    padding-top: 5px;
+}
+
+.inlineBot{
+    display: inline;
+    border-color: #E5E7EB;
+    background-color: red;
+    border-inline: solid;
+    border-inline-color: white;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
 }
