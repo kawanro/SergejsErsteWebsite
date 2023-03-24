@@ -28,7 +28,7 @@ a:link{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 50%;
+    width: 45%;
 }
 
 .heroheader{
@@ -61,17 +61,23 @@ a:link{
 
 .CTA{
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    /*width: 50px; */
+    justify-content: space-between; 
+    /*width: 50px;*/ 
+    padding: 50px 200px;
+    gap: 25px
 
+}
+
+.combo1{
+    display: flex;
+    flex-direction: column;
 }
 
 .border{
     border: 10px;
     border: solid;
     color:#3882f6;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 
 .subtext{
@@ -86,23 +92,22 @@ a:link{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    justify-content: center;
+    padding: 100px 200px;
 }
 
 .quotetext{
-    align-self: center;
     font-style: italic;
     font-size: 36px;
     color:#1F2937;
     flex-wrap: wrap;
-    max-width: 50%;
-    padding-top: 200px;
+    justify-content: center;
+    align-self: center;
+    /*max-width: 90%;*/
 }
 
 .author{
-    align-self: flex-end;
-    padding-right: 450px;
     padding-top:10px;
+    text-align: right;
 }
 
 .signUpBottom{
@@ -110,7 +115,7 @@ a:link{
     margin: 100px 200px;
     justify-content: space-between;
     background-color: #3882f6;
-    border-radius: 5%;
+    border-radius: 5px;
     padding: 50px 200px;
 }
 
@@ -125,13 +130,20 @@ a:link{
     padding-top: 5px;
 }
 
-.inlineBot{
+/*.inlineBot{
     display: inline;
     border-color: #E5E7EB;
     background-color: red;
     border-inline: solid;
     border-inline-color: white;
 
+}*/
+
+.buttomBot{
+  color: white;
+  border: 2px solid white;
+  padding: 8px 40px;
+  border-radius: 5px;
 }
 
 .footer{
@@ -140,4 +152,8 @@ a:link{
     background-color: #1F2937;
     color: #E5E7EB;
     padding: 30px;
+}
+
+* {
+    margin: 0;
 }
