@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+}
+.headerlinks {
+    display:flex;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    flex-basis: 33%
+}
+
+.herotext{
+    display: flex;
+    flex-direction: column;
+}
+
+.heroheader{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondaryhero, .SignUpButton{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.highlight{
+    display: inline-block;
+    padding: 15px;
+    background-color: #3882f6;
+    border-radius: 25px;
+}
+
+.CTA{
+    display: flex;
+}
+
+.border{
+    border: 10px;
+    border-radius: 50%;
+}
