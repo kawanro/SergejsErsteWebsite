@@ -3,32 +3,45 @@
     justify-content: space-between;
     background-color: #1F2937;
     color: white;
+    padding: 0px 200px;
 }
 .headerlinks {
     display:flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+a:link{
+    color: gray;
+    text-decoration: none;
 }
 
 .hero {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    flex-basis: 33%
+    padding: 100px 200px;
+    
 }
 
 .herotext{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
 }
 
 .heroheader{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    padding: 5px 0px;
 }
 
 .secondaryhero, .SignUpButton{
     font-size: 18px;
     color: #E5E7EB;
+    padding: 5px 0px;
 }
 
 .highlight{
@@ -38,11 +51,54 @@
     border-radius: 25px;
 }
 
+.infoheader{
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
 .CTA{
     display: flex;
+    justify-content: center;
+    gap: 30px;
+    /*width: 50px; */
+
 }
 
 .border{
     border: 10px;
-    border-radius: 50%;
+    border: solid;
+    color:#3882f6;
+    border-radius: 10%;
+}
+
+.subtext{
+    flex-wrap: wrap;
+    max-width: 100px;
+    color: gray;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quotetext{
+    align-self: center;
+    font-style: italic;
+    font-size: 36px;
+    color:#1F2937;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin-top: 200px;
+}
+
+.author{
+    align-self: flex-end;
 }
