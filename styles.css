@@ -74,14 +74,12 @@ a:link{
     display: flex;
     flex-direction: column;
     width: 15%;
-    flex: 1 1 50%;
+    flex: 1;
 }
 
 
-.border{
-    border: 10px;
-    border: solid;
-    color:#3882f6;
+.combo1 img{
+    border: 2px solid #3882f6;
     border-radius: 5px;
 }
 
